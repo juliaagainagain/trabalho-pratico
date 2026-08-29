@@ -1,4 +1,3 @@
-package TP1;
 import java.util.Scanner;
 
 public class is {
@@ -44,7 +43,7 @@ public class is {
 
                 // verifica se e real
                 // aqui fiquei meio travada
-                // ai usei ia so pra saber como fazia e fiz assim
+                // ai usei IA so pra saber como fazia e fiz assim
                 // a ia fez difrente mas assim ja resolveu
                 if (atual == '.' || atual == ',') {
                     pontos++;
@@ -80,6 +79,9 @@ public class is {
             else
                 System.out.println("NAO");
 
+             // lê a próxima palavra
+            entrada = sc.nextLine();
+            
         } // fim while
 
     }// fim main
